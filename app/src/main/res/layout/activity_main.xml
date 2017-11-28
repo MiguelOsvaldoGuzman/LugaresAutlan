@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginBottom="1dp"
+        >
+        <LinearLayout
+            android:id="@+id/pizza"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/pizza_icon" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.74"
+                android:gravity="center_horizontal"
+                android:text="@string/Pizza"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hamburguesa"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/hamburguesa_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Hamburguesas"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_weight="0.89" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginBottom="1.5dp"
+        >
+        <LinearLayout
+            android:id="@+id/tacos"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/tacos_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Tacos"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_weight="1.11" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/antojitos"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/hotdog_icon" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Hotdog"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_weight="1.26" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <LinearLayout
+            android:id="@+id/hotdog"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/pozole_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Antojitos"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_weight="0.63" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/restaurant"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:paddingTop="10dp"
+                android:src="@drawable/resaurant_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Restaurant"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_weight="0.63" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
